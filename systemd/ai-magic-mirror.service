@@ -1,0 +1,19 @@
+
+[Unit]
+Description=AI Magic Mirror
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Environment=VIRTUAL_ENV=/home/pi/AI-Smart-Mirror/aienv
+Environment=PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/home/pi/AI-Smart-Mirror/aienv/bin/python -u /home/pi/AI-Smart-Mirror/bot.py
+
+WorkingDirectory=/home/pi/AI-Smart-Mirror/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

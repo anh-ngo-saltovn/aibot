@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: kodi-json
+Version: 1.0.0
+Summary: Python module for controlling kodi over HTTP Json API
+Home-page: https://github.com/jcsaaddupuy/python-kodijson
+Author: Jean-Christophe Saad-Dupuy
+Author-email: jc.saaddupuy@fsfe.org
+License: WTFPL
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: Topic :: Multimedia
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: requests
+
+UNKNOWN
+
+
