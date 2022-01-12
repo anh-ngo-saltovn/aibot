@@ -9,3 +9,5 @@ with Clock(seconds = 30):
     while True:
         play(song)
         time.sleep(2)
+
+print("Hello Test")
